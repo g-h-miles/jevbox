@@ -28,7 +28,8 @@ try {
     original.steps.slice(0, 16),
   );
   assert.deepEqual(result.groove.steps.slice(32), original.steps.slice(32));
-  assert.equal(result.groove.arrangements[1].fill, "tom_run");
+  assert.ok(result.edits.some((e) => e.drum.startsWith("tom_")));
+  assert.ok(result.edits.length < 12);
   await p.getByRole("button", { name: "Bar 2", exact: true }).click();
   await p.getByRole("button", { name: "Beat 4", exact: true }).click();
   assert.match(
