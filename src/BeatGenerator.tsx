@@ -207,6 +207,12 @@ export default function BeatGenerator() {
         )
       )
         throw Error("The model returned an invalid arrangement.");
+      if (amend && !data.edits?.length) {
+        setMessage(
+          "No notes changed. Your edit is still here—try specifying a bar, beat, or fill.",
+        );
+        return;
+      }
       setUndoGroove(amend ? groove : null);
       if (amend) {
         stop();
@@ -513,6 +519,9 @@ export default function BeatGenerator() {
                 Undo edit
               </button>
             </div>
+            <p className="generator-message" role="status">
+              {message}
+            </p>
           </form>
         )}
         <section className="generator-pattern" aria-label="Beat pattern">
@@ -654,9 +663,11 @@ export default function BeatGenerator() {
                 : "Arranged by Jev"}
             </span>
           </div>
-          <p className="generator-message" role="status">
-            {message}
-          </p>
+          {!groove && (
+            <p className="generator-message" role="status">
+              {message}
+            </p>
+          )}
         </section>
       </main>
     </div>
