@@ -458,7 +458,8 @@ export default function BeatGenerator() {
           >
             <label className="generator-prompt">
               Amend your beat
-              <input
+              <textarea
+                rows={2}
                 aria-label="Amend your beat"
                 value={amendment}
                 maxLength={500}

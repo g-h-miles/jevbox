@@ -1,7 +1,7 @@
 import { chromium } from "@playwright/test";
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import assert from "node:assert/strict";
-const base = process.env.UI_URL || "http://127.0.0.1:5197";
+const base = process.env.UI_URL || "http://127.0.0.1:5173";
 const browser = await chromium.launch();
 try {
   const page = await browser.newPage();
@@ -11,7 +11,7 @@ try {
     await page.route("**/api/generate-step", async (route) =>
       route.fulfill({
         json: JSON.parse(
-          await readFile("artifacts/four-bar/fill3.json", "utf8"),
+          await readFile("tests/fixtures/fill3.json", "utf8"),
         ),
       }),
     );

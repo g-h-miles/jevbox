@@ -1,0 +1,617 @@
+{
+  "groove": {
+    "foundation": "four_floor",
+    "top": "open_offbeats",
+    "feel": "straight",
+    "fill": "none",
+    "kit": "electronic",
+    "bars": 4,
+    "resolution": 16,
+    "arrangements": [
+      {
+        "foundation": "four_floor",
+        "top": "open_offbeats",
+        "feel": "straight",
+        "fill": "none"
+      },
+      {
+        "foundation": "four_floor",
+        "top": "open_offbeats",
+        "feel": "straight",
+        "fill": "none"
+      },
+      {
+        "foundation": "four_floor",
+        "top": "open_offbeats",
+        "feel": "straight",
+        "fill": "snare_roll"
+      },
+      {
+        "foundation": "four_floor",
+        "top": "open_offbeats",
+        "feel": "straight",
+        "fill": "none"
+      }
+    ],
+    "steps": [
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 56,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 56,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 104,
+        "closed": 56,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 104,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 56,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      },
+      {
+        "kick": 0,
+        "closed": 0,
+        "open": 0,
+        "ride": 0,
+        "crash": 0,
+        "snare": 0,
+        "aux": 0
+      }
+    ]
+  },
+  "modelCalls": 8,
+  "inputTokens": 18940
+}
