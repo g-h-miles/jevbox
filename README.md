@@ -26,3 +26,7 @@ Live browser validation:
 ```
 LIVE=1 UI_URL=https://jevbox.grahammiles.me node scripts/four-bar-ui-check.mjs
 ```
+
+### Phrase development
+
+Jev now selects restrained per-bar variations in addition to the base groove and fills. Opening, answer, development and turnaround roles guide the phrase; exact-repeat requests override them. Public validation at 1/32 produced three distinct patterns for the default prompt, four for reggae with no fills, and one for an explicit identical repeat. Playback and MIDI retain each bar's actual notes. This is still a bounded arrangement vocabulary, not unrestricted composition.

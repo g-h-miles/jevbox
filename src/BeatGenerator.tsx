@@ -16,7 +16,7 @@ import "./generator.css";
 
 export default function BeatGenerator() {
   const [prompt, setPrompt] = useState(
-    "A laid-back pocket. Firm kick, snare on 2 and 4, quiet eighth-note hats.",
+    "A laid-back funk pocket with quiet hats. Develop it across four bars with subtle variations.",
   );
   const [amendment, setAmendment] = useState("");
   const [undoGroove, setUndoGroove] = useState<BarGroove | null>(null);
