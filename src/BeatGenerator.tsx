@@ -290,17 +290,42 @@ export default function BeatGenerator() {
   const shown = [...drums]
     .sort(
       (a, b) =>
-        ["kick", "snare", "closed", "open", "ride", "crash", "aux"].indexOf(
-          a.id,
-        ) -
-        ["kick", "snare", "closed", "open", "ride", "crash", "aux"].indexOf(
-          b.id,
-        ),
+        [
+          "kick",
+          "snare",
+          "closed",
+          "open",
+          "tom_high",
+          "tom_mid",
+          "tom_low",
+          "ride",
+          "crash",
+          "aux",
+        ].indexOf(a.id) -
+        [
+          "kick",
+          "snare",
+          "closed",
+          "open",
+          "tom_high",
+          "tom_mid",
+          "tom_low",
+          "ride",
+          "crash",
+          "aux",
+        ].indexOf(b.id),
     )
     .filter(
       (d) =>
-        ["kick", "snare", "closed", "open"].includes(d.id) ||
-        groove?.steps.some((s) => s[d.id] > 0),
+        [
+          "kick",
+          "snare",
+          "closed",
+          "open",
+          "tom_high",
+          "tom_mid",
+          "tom_low",
+        ].includes(d.id) || groove?.steps.some((s) => s[d.id] > 0),
     );
   const gridResolution = groove?.resolution ?? resolution;
   const perBeat = gridResolution / 4;

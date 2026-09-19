@@ -30,3 +30,7 @@ LIVE=1 UI_URL=https://jevbox.grahammiles.me node scripts/four-bar-ui-check.mjs
 ### Phrase development
 
 Jev now selects restrained per-bar variations in addition to the base groove and fills. Opening, answer, development and turnaround roles guide the phrase; exact-repeat requests override them. Public validation at 1/32 produced three distinct patterns for the default prompt, four for reggae with no fills, and one for an explicit identical repeat. Playback and MIDI retain each bar's actual notes. This is still a bounded arrangement vocabulary, not unrestricted composition.
+
+### Toms
+
+High, mid and low toms are available in the grid, all five preview kits, targeted amendments, and descending one-/two-beat fills. MIDI uses GM notes 50, 47 and 45. Try “rock groove with a descending tom fill on bar 4” or amend with “add a low tom on bar 2 beat 3”.

@@ -15,6 +15,9 @@ const rest: BeatStep = {
   crash: 0,
   snare: 0,
   aux: 0,
+  tom_low: 0,
+  tom_mid: 0,
+  tom_high: 0,
 };
 function parseMidi(bytes: Uint8Array) {
   let i = 22,
@@ -129,4 +132,10 @@ describe("parallel position coverage", () => {
     const done = new Set([...Array(8).keys(), 9, 10]);
     expect(pendingBatches(16, done)).toEqual([{ start: 8, size: 8 }]);
   });
+});
+
+it("exports high, mid and low toms as GM notes 50, 47 and 45",()=>{
+ const result=parseMidi(patternMidi([{...rest,tom_high:104},{...rest,tom_mid:80},{...rest,tom_low:104}],120,1,16));
+ expect(result.notes.map(n=>n.note)).toEqual([50,47,45]);
+ expect(result.notes.map(n=>n.tick)).toEqual([0,2400,4800]);
 });

@@ -85,6 +85,20 @@ export function grooveSound(
   if (drum === "kick") {
     tone(profile.kick[0], 0.85, profile.kick[2], profile.kick[1]);
     noise(1800, 0.12, 0.012);
+  } else if (drum === "tom_low" || drum === "tom_mid" || drum === "tom_high") {
+    const pitch = { tom_low: 95, tom_mid: 135, tom_high: 185 }[drum];
+    const tuning =
+      kitName === "electronic"
+        ? 0.9
+        : kitName === "funk"
+          ? 1.15
+          : kitName === "dusty"
+            ? 0.85
+            : 1;
+    const decay = kitName === "funk" ? 0.2 : kitName === "reggae" ? 0.38 : 0.28;
+    tone(pitch * tuning * 1.5, 0.55, decay, pitch * tuning);
+    tone(pitch * tuning * 2.1, 0.12, decay * 0.55);
+    noise(1200, 0.1 * profile.wire, 0.025, "bandpass");
   } else if (drum === "snare") {
     tone(
       profile.snare[0],
